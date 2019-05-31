@@ -2,9 +2,12 @@
 #include <dirent.h>
 #include <sys/stat.h>
 #include <string.h>
-/**
+#include <stdlib.h>
+
+/*
  * Main
- */
+*/
+
 int main(int argc, char **argv)
 {
   struct dirent *entry;
